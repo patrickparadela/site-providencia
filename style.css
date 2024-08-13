@@ -56,8 +56,27 @@ footer{
 footer > p{
     margin: 5px; 
     text-align: center;
+  
+}
+
+div.imagem{
+    background-color:#5c3309;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+   
+}
+
+div >img{
+    display: flexbox;
+   margin-left:100px;
+   border-radius: 50px;
+   
+    
+    
     
 }
+
 
 
 
