@@ -4,11 +4,25 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
 
 body{
-
+    background-color: #e9bc75;
+     height: 100vh;
+     width: 100vw;
     background-image: url(./imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;  
 }
+
+ .corpo{
+   background-color: #104A27;
+  }
 
 
  .logo{
@@ -24,12 +38,12 @@ body{
  }
 
 nav{
-     background-color: #DB8A08;
+     background-color: #e6bbcf;
      display:flex;
      justify-content: space-around;
-    margin: 5px;
-    padding: 20px;
-    border-radius: 5px;
+     margin: 5px;
+     padding: 5px;
+     border-radius: 5px;
     box-shadow: 5px 5px 5px#58280093;
 }
 
@@ -41,7 +55,7 @@ a{
 }
 
  a:hover{
-    background-color:#FF8C1B ;
+    background-color:#0ED02B ;
     text-decoration: underline;
     border-radius: 5px; 
     box-shadow: 3px 3px 10px #3f2308af; 
