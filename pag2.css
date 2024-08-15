@@ -65,6 +65,7 @@ nav >a:hover{
   margin: 16px;
   color:  #6b3870;
   font-size: larger;
+  text-align: center;
   
 }
 
@@ -92,7 +93,7 @@ h2{
 
 
 
-
+/**estudar esses codigos para botao */
 
 .whatsapp-button {
     position: fixed;

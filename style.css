@@ -10,6 +10,8 @@
     box-sizing: 0px;
 }
 
+
+
 body{
     background-color: #e9bc75;
      height: 100vh;
@@ -20,21 +22,20 @@ body{
     background-size: 100% 100%;  
 } 
 
-header{
-    
-    
-}
 
  .corpo{
    background-color: #6ebe8e;
    display: flex;
    margin: auto;
-   margin: 10px 0px;
+   margin: 10px 0px 0px 10px;
+   margin-right: 20px;
    box-shadow: 10px 5px 10px  #223b2cd7;
  }
 
 
 .bolo{
+
+    
     display: flex;
     width: 150px;
     height: 150px;   
@@ -60,10 +61,8 @@ header{
 
 nav{
      background-color: #e6bbcf;
-     display:flex;
-     justify-content: space-around;
      margin: 5px;
-     padding: 5px;
+     padding: 50px;
      border-radius: 5px;
     box-shadow: 5px 5px 5px#58280093;
 }
@@ -87,9 +86,9 @@ footer{
     padding: 3pxpx;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 1500px;
     font-size: 9px;
-    margin: 5px;
+    margin: 20px
     border-radius: 5px;
         
 }
@@ -98,6 +97,8 @@ footer{
 footer > p{
     margin: 5px; 
     text-align: center;
+    
+    
   
 }
 
