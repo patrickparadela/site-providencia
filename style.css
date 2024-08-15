@@ -18,21 +18,46 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;  
+} 
+
+header{
+    
+   
+    
+    
 }
 
  .corpo{
-   background-color: #104A27;
-  }
+   background-color: #6ebe8e;
+   
+   display: flex;
+   margin: auto;
+   
+}
+
+.bolo{
+    margin: auto;
+}
 
 
  .logo{
     display: flex;
     margin: auto;
+    width:50px;
+    margin-top: 5px;
+    
+    
+  
 
     
  }
 
  .logo-grande{
+    display: flex;
+    margin: auto;
+ }
+
+ .imagen2{
     display: flex;
     margin: auto;
  }
@@ -80,23 +105,26 @@ footer > p{
   
 }
 
-div.imagem{
-    background-color:#5c3309;
-    margin: 10px;
-    border-radius: 5px;
-    padding: 20px;
-   
+  h1{
+    margin-top: 10px;
+    text-align: center;
+    color: #6b3870;
 }
 
-div >img{
-    display: flexbox;
-   margin-left:100px;
-   border-radius: 50px;
-   
-    
-    
-    
+p{
+    text-align: justify;
+    margin: 2em;
+    color: #6b3870;
 }
+
+.simb1{
+     margin-left: 50px;
+
+
+}
+    
+    
+    
 
 
 
