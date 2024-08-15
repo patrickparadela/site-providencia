@@ -37,23 +37,15 @@ header{
 .bolo{
     display: flex;
     width: 150px;
-    height: 150px;
-   
-    
+    height: 150px;   
 }
-
-
 
  .logo{
     display: flex;
     margin: auto;
     width:50px;
     margin-top: 5px;
-    
-    
-  
-
-    
+     
  }
 
  .logo-grande{
