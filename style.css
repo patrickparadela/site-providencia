@@ -22,22 +22,26 @@ body{
 
 header{
     
-   
-    
     
 }
 
  .corpo{
    background-color: #6ebe8e;
-   
    display: flex;
    margin: auto;
-   
-}
+   margin: 10px 0px;
+   box-shadow: 10px 5px 10px  #223b2cd7;
+ }
+
 
 .bolo{
-    margin: auto;
+    display: flex;
+    width: 150px;
+    height: 150px;
+   
+    
 }
+
 
 
  .logo{
@@ -120,7 +124,15 @@ p{
 .simb1{
      margin-left: 50px;
 
+}
 
+.p1{
+    color:  #6b3870;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    
 }
     
     
