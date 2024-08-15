@@ -6,15 +6,16 @@
 
 
 body{
-    background-image: linear-gradient(to right,orange,rgba(192, 125, 1, 0.815),rgb(202, 129, 4));
-    padding: 0;
-    margin: 0;
+   
    
 }
 
-#logo{
- text-align: center;
-}
+ .logo{
+    display: flex;
+    margin: auto;
+    min-width: 320px;
+    max-width: 600px;
+ }
 
 nav{
      background-color: #DB8A08;
