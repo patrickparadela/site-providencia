@@ -22,6 +22,13 @@ body{
     background-size: 100% 100%;  
 } 
 
+header{
+   
+    margin: 10px 10px ;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px #6ebe8e;
+}
+
 
  .corpo{
    background-color: #6ebe8e;
@@ -109,7 +116,7 @@ footer > p{
 }
 
 p{
-    text-align: justify;
+    
     margin: 2em;
     color: #6b3870;
 }
