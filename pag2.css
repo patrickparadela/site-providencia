@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #8dfdba ;
+    background-color:#E9BFD3 ;
    margin: 0px;
    padding: 0px;
    box-sizing: 0px;
@@ -30,8 +30,10 @@ nav{
 a{
    color: white;
    text-align: center;
+   font-size:30px;
    text-decoration: none;
-   padding: 15px;
+   padding: 30px;
+ 
 }
 
 nav >a:hover{
@@ -126,5 +128,11 @@ h2{
     transform: rotate(20deg);
 }
 
+
+@media (max-width: 768px) {
+    .corpo {
+        flex-direction: column;
+        
+    }
 
 
