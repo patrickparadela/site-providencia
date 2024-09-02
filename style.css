@@ -11,6 +11,7 @@ body {
     background-image: url(./imagens/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 } 
 
 header {
@@ -123,11 +124,13 @@ h1{
 @media (max-width: 768px) {
     .corpo {
         flex-direction: column;
+        padding: 5px;
         
     }
 
     .noticias {
         max-width: 100%;
+        margin: 8px auto;
     }
 
     .galeria {
@@ -160,6 +163,24 @@ h1{
     a {
         padding: 10px;
     }
+
+
+    @media (max-width: 600px) {
+        nav {
+            padding: 10px;
+            text-align: left;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        nav a:hover {
+            box-shadow: none;
+        }
 
 
 
