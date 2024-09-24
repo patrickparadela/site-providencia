@@ -1,10 +1,47 @@
+*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(to right,#F2E2D5,#ac9f95);
+}
+
+.menu{
+    border:1px solid red;
+    width: 920px;
+    height: 150px;
+    margin: auto; 
+   
+}
 
 
 
+.areia1{
+    border:1px solid red;
+    width: 920px;
+    height: 400px;
+    margin: auto;  
+}
+
+.areia2{
+    border:1px solid red;
+    width: 920px;
+    height: 300px;
+    margin: auto;  
+}
 
 
-    
-    
+.areia3{
+    border:1px solid red;
+    width: 920px;
+    height: 350px;
+    margin: auto;  
+}
+
+
+
     
 
 
