@@ -15,6 +15,7 @@ body{
     height: 150px;
     margin: auto;
     background-color: white;
+    background: url(imagens/logo.png.png);
 }
 
 ul{
@@ -73,8 +74,9 @@ li{
     float: left;
     margin: 30px;
     margin-top: 50px;
-
-   
+}
+.logo2{
+    width: 200px;
 
 }
      
