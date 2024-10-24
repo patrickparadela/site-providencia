@@ -10,19 +10,21 @@ body{
 }
 
 .menu{
-    border:1px solid red;
     width: 920px;
     height: 150px;
     margin: auto;
     background-color: white;
-    background: url(imagens/logo.png.png);
+    background: url(imagens/logo-pq.png2);
+    background-repeat: no-repeat;
+    background-position: 45px;
 }
 
 ul{
    margin-left: 225px;
-   margin-top: 60px;
-    
+   margin-top: 60px;  
 }
+
+
 .menu a{
     text-decoration: none;
     padding: 20px;
@@ -45,19 +47,21 @@ li{
  }
 
 .areia1{
-    border:1px solid red;
     width: 920px;
     height: 400px;
     margin: auto;
     clear: both;  
     margin-top: 5px;
+    display: flex;
+   
 }
 
 .areia2{
     border:1px solid red;
     width: 920px;
     height: 300px;
-    margin: auto;  
+    margin: auto;
+    margin-top: 5px;  
     
 }
 
@@ -70,16 +74,65 @@ li{
 }
 
 
-.imagem1{
-    float: left;
-    margin: 30px;
-    margin-top: 50px;
+.elemento1{
+    width: 306px;
+    height: 250px;
+    background-color: #D89D5C;
+    
 }
-.logo2{
-    width: 200px;
 
+.elemento2{
+    width: 306px;
+    height: 250px;
+    background-color: #D89D5C;
+      
 }
-     
+
+.elemento3{
+   
+    width: 306px;
+    height: 250px;
+    background-color: #D89D5C;
+      
+}
+
+.elemento4{
+    width: 920px;
+    height: 150px;
+    background-color: #D89D5C;
+    margin: 0 auto;
+    margin-top: -140px;
+}
+
+.elemento1 img{
+    margin-left: 70px;
+    margin-top: -20px;
+   
+    
+}
+
+.elemento1 p{
+    margin-top: -20px;   
+}
+
+.formulario{
+    
+    margin-left: 400px; 
+   
+}
+
+.submit{
+    width: 60px;
+}
+
+input{
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+}
+
 
     
 
